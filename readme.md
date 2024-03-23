@@ -42,6 +42,8 @@
   * String manipulation methods
   * Regular expressions for pattern matching
 
+* **Enumerations (Enums):** Creating custom types with named constants
+
 **Advanced Concepts:**
 
 * **Pattern Matching:**
@@ -55,17 +57,10 @@
 * **Class Modifiers:**
   * Introduced in Dart 3 to provide more control over how classes and their members are exported or accessed.
   * Examples include `abstract`, `mixin`, `sealed`, and `late`.
-* **Null Safety (Enhanced):**
-  * Dart 3 enforces null safety even more strictly, preventing null-related errors at compile time.
-  * Use of the null-safe operator (`?`) is now mandatory for accessing properties or calling methods on potentially null objects.
 * **Asynchronous Programming:**
   * Futures: Handling asynchronous operations
   * Async/await syntax for cleaner async code
   * Streams: Processing data streams
   * Isolates: Running code concurrently in separate isolates
 * **Generics:** Creating type-safe collections and functions
-* **Metaprogramming:** Code that manipulates other code at runtime
-* **Dart Packages & Libraries:** Exploring the rich ecosystem of reusable code
-* **Typedefs:** Defining aliases for complex types
-* **Symbols:** Unique and immutable objects for efficient comparisons
-* **Enumerations (Enums):** Creating custom types with named constants
+* **Extensions:** Extending the functionality of any class
